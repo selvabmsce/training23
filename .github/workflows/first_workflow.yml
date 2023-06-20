@@ -18,7 +18,12 @@ jobs:
         python-version: ${{ matrix.versions }}
     - run: python -m pip install Flask
     - run: python test.py
-    
+
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "deploying"
 
 
   

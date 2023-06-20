@@ -7,4 +7,5 @@ jobs:
    runs-on: ubuntu-latest
    steps:
     - run: echo "Hello World"
+    - run: python test.py
     
